@@ -1,0 +1,31 @@
+{% extends 'elegant_app/index.html'%}
+
+{% load static %}
+{% block content %}
+<div class="container">
+<h1 class="text-center mt-5 pt-4"> Our Services </h1>
+<p> We provide digital services, business analytics and tools and means of establishing and optimization <em>online</em>presence. Our team consists of data scientists and software engineers with deep experience in for profit as well as not for profit entities. With our services in place, you can reach four corners of the globe to expand your market without carrying out traditional forms of advertisement.</p>
+<br>
+<h1> Full Stack Web Development </h1>
+<p>We use modern technologies to built modern dynamic and responsive websites. In the backend, we use Python and Django.</p>
+<div class="container">
+<div class="row">
+ <div class="col-md-4">
+ <h3> Django as Backend </h3>
+<p>Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source. Django was designed to help developers take applications from concept to completion as quickly as possible. Django takes security seriously and helps developers avoid many common security mistakes.</p>
+<img src="{% static '/images/django.png' %}" class="img-fluid3">
+</div>
+<div class="col-md-4">
+<h3>Python as Data Analytics</h3>
+<p>We use python programming for data analysis, artificial intelligence and machine learning. Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+<img src="{% static '/images/python.jpg'%}" class='img-fluid3'>
+</div>
+<div class="col-md-4">
+<h3>Bootstrap4 as frontend </h3>
+<p>In the front end, in addition to the usual html, css and javascript, we use Bootstrap4. Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p> 
+<img src="{% static '/images/bs4.jpg'%}" class="img-fluid3">
+   </div>
+  </div>
+</div>
+</div>
+{% endblock%}
